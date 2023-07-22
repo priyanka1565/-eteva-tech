@@ -3,6 +3,7 @@ import { SimpleGrid, Heading, Button, Image } from "@chakra-ui/react";
 import Card from "../Components/Card";
 import { useNavigate } from "react-router-dom";
 import Navbar from '../Components/Navbar';
+
 const ProductDetailsPage = () => {
 
   let data = JSON.parse(localStorage.getItem("products")) || [];

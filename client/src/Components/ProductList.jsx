@@ -1,3 +1,11 @@
+import {
+ModalCloseButton,
+  Button,
+  FormControl,
+  FormLabel,
+ 
+  Select,
+} from "@chakra-ui/react";
 import { SimpleGrid } from "@chakra-ui/react";
 import { useState } from "react";
 import Data from "../Data/Products";
@@ -34,7 +42,11 @@ export default function ProductList() {
           return (
             <div>
               <Card Props={elem} />
-              <button onClick={() => getsinglement(elem)}>View ProductDetail</button>
+              <Button marginTop={"-90px"}
+                marginLeft={"20px"}
+                border={"2px solid teal"}>
+                Add To Cart
+              </Button>
             </div>
           );
         })}

@@ -1,8 +1,8 @@
-import { Box, Image, Text } from "@chakra-ui/react";
+import { Box, Button, Image, Text } from "@chakra-ui/react";
 
 export default function Card(Props) {
   console.log("prop", Props);
-  const { id, productImg, category, description, Price } = Props.Props;
+  const { id, productImg,  description, Price } = Props.Props;
   return (
     <Box
       className="pod"
@@ -24,11 +24,11 @@ export default function Card(Props) {
         margin={"left"}
         maxWidth={"180px"}
         fontWeight={"700"}
-        bgColor={"tomato"}
+        bgColor={""}
         color={"white"}
         textAlign={"center"}
       >
-        {category}
+        { <Button/>}
       </Box>
     </Box>
   );

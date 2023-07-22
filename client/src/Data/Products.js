@@ -3,30 +3,34 @@ const Data = [
     id: 1,
     productImg: "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
     category: "men's clothing",
-    description: "Men's White The Ryuk Graphic Printed T-shirt",
+    description: "Men's White The Ryuk",
     Price: 799,
+    quantity: 4,
   },
   {
     id: 2,
     productImg:
       "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
     category: "men's clothing",
-    description: "Men's Black The Ryuk Graphic Printed Oversized T-shirt",
+    description: "Men's Black The T-shirt",
     Price: 599,
+    quantity: 4,
   },
   {
     id: 3,
     productImg: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
     category: "men's clothing",
-    description: "Men's Lilac WOW Typography Oversized T-shirt",
+    description: "Men's Lilac Oversized T-shirt",
     Price: 699,
+    quantity: 4,
   },
   {
     id: 4,
     productImg: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
     category: "men's clothing",
-    description: "Men's Black Beyond Reality Typography Super Loose T-shirt",
+    description: "Men's Black Loose T-shirt",
     Price: 899,
+    quantity: 4,
   },
   {
     id: 5,
@@ -35,6 +39,7 @@ const Data = [
     category: "jewelery",
     description: " Gold & Silver Chain Bracelet",
     Price: 599,
+    quantity: 4,
   },
   {
     id: 6,
@@ -43,6 +48,7 @@ const Data = [
     category: "jewelery",
     description: "Solid Gold Petite Micropave",
     Price: 699,
+    quantity: 4,
   },
   {
     id: 7,
@@ -51,6 +57,7 @@ const Data = [
     category: "jewelery",
     description: "White Gold Plated Princess",
     Price: 899,
+    quantity: 4,
   },
   {
     id: 8,
@@ -59,6 +66,7 @@ const Data = [
     category: "jewelery",
     description: "Pierced Owl Rose Gold Plated",
     Price: 799,
+    quantity: 4,
   },
   {
     id: 9,
@@ -66,6 +74,7 @@ const Data = [
     category: "electronics",
     description: " Hard Drive - USB 3.0 ",
     Price: 699,
+    quantity: 4,
   },
   {
     id: 10,
@@ -73,6 +82,7 @@ const Data = [
     category: "electronics",
     description: "SSD - SATA III 6 Gb/s",
     Price: 599,
+    quantity: 4,
   },
   {
     id: 11,
@@ -80,6 +90,7 @@ const Data = [
     category: "electronics",
     description: "Silicon Power 256GB SSD ",
     Price: 599,
+    quantity: 4,
   },
   {
     id: 12,
@@ -87,6 +98,7 @@ const Data = [
     category: "electronics",
     description: "WD 4TB Gaming Drive",
     Price: 699,
+    quantity: 4,
   },
   {
     id: 13,
@@ -94,6 +106,7 @@ const Data = [
     category: "electronics",
     description: "Acer SB220Q bi 21.5 inches Full HD ",
     Price: 799,
+    quantity: 4,
   },
   {
     id: 14,
@@ -101,6 +114,7 @@ const Data = [
     category: "welectronics",
     description: "uper Ultrawide Screen QLED",
     Price: 599,
+    quantity: 4,
   },
   {
     id: 15,
@@ -108,6 +122,7 @@ const Data = [
     category: "women's clothing",
     description: "Snowboard Jacket Winter Coats",
     Price: 799,
+    quantity: 4,
   },
   {
     id: 16,
@@ -115,6 +130,7 @@ const Data = [
     category: "women's clothing",
     description: "Leather Moto Biker Jacket",
     Price: 599,
+    quantity: 4,
   },
   {
     id: 17,
@@ -122,6 +138,7 @@ const Data = [
     category: "women's clothing",
     description: "Windbreaker Climbing Raincoats",
     Price: 599,
+    quantity: 4,
   },
   {
     id: 18,
@@ -129,6 +146,7 @@ const Data = [
     category: "women's clothing",
     description: "Opna Women's Short Sleeve Moisture",
     Price: 899,
+    quantity: 4,
   },
   {
     id: 19,
@@ -136,6 +154,7 @@ const Data = [
     category: "women's clothing",
     description: "Lightweight perfet for trip or casual",
     Price: 699,
+    quantity: 4,
   },
   {
     id: 20,
@@ -143,6 +162,7 @@ const Data = [
     category: "women's clothing",
     description: "Womens T Shirt Casual Short",
     Price: 599,
+    quantity: 4,
   },
 ];
 

@@ -11,6 +11,7 @@ import { useState } from "react";
 import Data from "../Data/Products";
 import Card from "./Card";
 import { useNavigate } from "react-router-dom";
+import Navbar from "./Navbar";
 
 
 export default function ProductList() {
@@ -31,8 +32,9 @@ export default function ProductList() {
 
 
   return (
-    <>
-    <SimpleGrid
+    <div>
+      <div>
+      <SimpleGrid
         padding={"20px"}
         columns={[1, 3, 3, 4]}
         justifyContent={"space-evenly"}
@@ -44,13 +46,16 @@ export default function ProductList() {
               <Card Props={elem} />
               <Button marginTop={"-90px"}
                 marginLeft={"20px"}
-                border={"2px solid teal"}>
+                border={"2px solid teal"}
+                onClick={() => getsinglement(elem)}
+              >
                 Add To Cart
               </Button>
             </div>
           );
         })}
       </SimpleGrid>
-    </>
+      </div>
+    </div>
   );
 }

@@ -2,7 +2,7 @@ import { Box, Button, Image, Text } from "@chakra-ui/react";
 
 export default function Card(Props) {
   console.log("prop", Props);
-  const { id, productImg,  description, Price } = Props.Props;
+  const { id, productImg,  description, Price,quantity} = Props.Props;
   return (
     <Box
       className="pod"
@@ -19,6 +19,9 @@ export default function Card(Props) {
         {description}
       </Text>
       <Text fontWeight={"500"}>Price : ₹ {Price}</Text>
+      <Text maxWidth={"280px"} fontWeight={"500"}>
+        Quantity: {quantity}
+      </Text>
       <Box
         borderRadius={"5px"}
         margin={"left"}
@@ -30,6 +33,7 @@ export default function Card(Props) {
       >
         { <Button/>}
       </Box>
+
     </Box>
   );
 }

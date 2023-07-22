@@ -1,12 +1,16 @@
 import { Box, Text } from "@chakra-ui/react";
 import ProductList from "../Components/ProductList";
-import Navbar from "../Components/Navbar";
+import Template from "../Components/Template";
+
+
+
+
 
 export default function ProductPage() {
   return (
     <div>
       <div>
-        <Navbar />
+      <Template/>
       </div>
       <div>
         <Box>

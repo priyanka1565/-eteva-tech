@@ -16,13 +16,13 @@ import {
   IconButton,
 } from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from "@chakra-ui/icons";
-import "./Navbar.css"
+import "./navmodule.css"
 
 const Links = [{ url: "", title: "Home" },{url:"cart_page",title:"Cart"}];
 
 let Auth = true;
 
-function Navbar() {
+const  Template=()=> {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
@@ -78,4 +78,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Template;

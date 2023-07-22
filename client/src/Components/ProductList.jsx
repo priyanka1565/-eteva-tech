@@ -11,7 +11,7 @@ import { useState } from "react";
 import Data from "../Data/Products";
 import Card from "./Card";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Navbar";
+
 
 
 export default function ProductList() {

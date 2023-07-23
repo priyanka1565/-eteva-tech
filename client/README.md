@@ -3,6 +3,7 @@
 ## Introduction
 Eteva_tech is E-commerce platform where the user can view products  also user can view the product with all the details of the product as well as user can add the product into the cart and remove from card also. 
 ## Deplolyed App
+https://eteva-tech.netlify.app
 
 ## Features
 ** List out the key features of your application. **
